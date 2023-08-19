@@ -1,0 +1,27 @@
+.con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.formManage {
+  width: 800px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 29px 1px #000;
+  filter: grayscale(30%);
+  padding: 60px;
+}
+
+.btn {
+  width: 100px;
+  border-radius: 0%;
+}
+label {
+  font-size: 20px;
+}
+
+.btnsub {
+  width: 200px;
+  height: 30px;
+}

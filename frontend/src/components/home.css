@@ -1,0 +1,229 @@
+/* section 1 height  */
+#section1 {
+  background-image: url("/src/components/images/front.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* main page btn css */
+.b1 {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-color: 2px solid rgb(255, 255, 255);
+  background-color: none;
+  text-align: center;
+  font-size: 18px;
+  background-color: rgb(224, 224, 224);
+  font-weight: bold;
+}
+
+.b1:hover {
+  background-color: rgb(168, 171, 174);
+}
+
+.b2 {
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(243, 235, 235);
+}
+
+.b2:hover {
+  background-color: rgb(171, 172, 173);
+}
+
+/* navbar color css */
+.navbar {
+  background-color: #f9f4f4;
+
+  border: none;
+}
+
+/* margin main page css */
+.coll {
+  margin-top: 100px;
+}
+
+/* salry name css */
+.salary {
+  color: rgb(0, 0, 0);
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  /* Apply a transition for smooth color change */
+
+  /* Define the animation */
+  animation-name: salary-animation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes salary-animation {
+  0% {
+    transform: scale(1);
+    /* Initial scale */
+  }
+
+  50% {
+    transform: scale(1);
+    /* Scale up to 120% */
+    background-color: #ebebeb;
+    /* Change the background color at 50% of the animation */
+  }
+
+  100% {
+    transform: scale(1);
+    /* Back to the original scale */
+  }
+}
+
+/* marquee css */
+marquee {
+  font-size: 20px;
+  color: rgb(88, 88, 88);
+}
+
+/* .navs {
+    padding: 15px;
+    color: black;
+} */
+
+/* navbar */
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.navbar-nav li {
+  margin-right: 10px;
+}
+
+.navbar-nav li:last-child {
+  margin-right: 0;
+}
+
+.navbar-nav li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar-nav li.active a {
+  font-weight: bold;
+}
+
+/* left side content css */
+.salaryrelate {
+  margin-top: 80px;
+  color: whitesmoke;
+  font-family: "Mate SC", serif;
+  font-size: 20px;
+}
+
+/* about us css starting */
+#about-us {
+  overflow-y: auto;
+  height: 100vh;
+  background: linear-gradient(90deg, #e8e8e8 0%, #ffeee1 100%);
+}
+
+.about {
+  text-shadow: -9px -1px 14px #837575;
+  margin-top: 70px;
+  color: black;
+  font-size: 40px;
+}
+
+.jumbotron {
+  margin-top: 20px;
+  padding: 80px;
+  line-height: 35px;
+  color: rgb(90, 61, 61);
+  font-size: 20px;
+}
+
+.viewb {
+  width: 200px;
+  margin-top: 20px;
+  height: 45px;
+}
+
+/* feature section css */
+#features {
+  height: 100vh;
+}
+
+.feature {
+  overflow-y: auto;
+  text-shadow: -9px -1px 14px #837575;
+  margin-top: 70px;
+  color: white;
+  font-size: 40px;
+  color: #333;
+  /* text-shadow: 2px 5px 10px #353533;
+    background: linear-gradient(90deg, #F0F0F0 0%, #FBE2E2 100%); */
+}
+
+.card {
+  background: linear-gradient(90deg, #eeeaea 0%, #e2fbf9 100%);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #e7e7e7;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #666;
+  font-size: 14px;
+}
+
+.r1 {
+  margin-top: 50px;
+}
+
+hr {
+  border: none;
+  height: 3px;
+  background-color: #f99955;
+  margin: 10px 0;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.thumbnail {
+  background-color: #000000;
+  box-shadow: 5px 5px 10px 1px #aeaeae;
+}
+
+.thumclass {
+  margin-top: 25px;
+}
+
+.fullM {
+  background-color: #f89292;
+}
+
+/* carousel css */
